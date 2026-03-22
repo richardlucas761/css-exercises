@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+/* This works for the current content because it formats everything with this style.
+   If any other content was added the * could be replaced with .black, .yellow
+*/
+* {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.black {
+    background: black;
+    color: white;
+}
+
+.yellow {
+    background: yellow;
+}
